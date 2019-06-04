@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/mygrid.css">
+  <style>
+    .gallery {
+      margin: 10px 50px;
+      color: wheat;
+    }
+
+    .gallery img {
+      width: 230px;
+      height: 150px;
+      padding: 5px;
+      transition: .4s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Grid layout modified form of "w3school.com" grid layout-->
+  <div class="grid-container">
+    <!-- Header Starts navigation -->
+    <header class="navbar">
+      <div id="main-head">
+        <span id="mylogo"><img id="logo"
+            src="./image/logo_transparent.png"
+            width="100px" height="100px"></span>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="gallery.html">Gallery</a>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Header ends -->
+
+    <!-- Left aside starts -->
+    <aside class="leftaside">
+      <table class="gallery">
+        <thead>
+          <th>Food Menu</th>
+        </thead>
+        <tr>
+          <td>
+            <a><img
+                src="./image/FoodImage/food6.jpg"
+                alt="" height="150px" width="150px"></a>
+            <figcaption>Food Item: 1</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food7.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 2</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food8.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 3</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food9.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 4</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food5.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 5</figcaption>
+          </td>
+        </tr>
+      </table>
+    </aside>
+    <!-- Leftaside ends -->
+
+    <!-- Center main Content start-->
+    <div class="maincontent">
+      <div class="jumbotron" style="margin:auto;">
+        <h1>Gallery</h1>
+      </div>
+      <div class="gallery">
+        <figure><a href="././image/building/house.jpg"><img src="./image/House/house.jpg"></a>
+          <figcaption>ZstarHomes Previews</figcaption>
+        </figure>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background1.png"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background2.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background3.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background4.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background5.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background13.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background7.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background8.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background9.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background10.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background11.jpg"></a>
+        <a href="./image/building/house.jpg"><img src="./image/Background/background12.jpg"></a>
+      </div>
+    </div>
+    <!-- main ends -->
+
+    <!-- rightaside starts -->
+    <aside class="rightaside">
+      <table class="gallery">
+        <thead>
+          <th>Food Menu</th>
+        </thead>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food1.jpg"
+                alt="">
+              <figcaption>Food Item: 6</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food2.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 7</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food3.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 8</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food4.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 9</figcaption>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div><img
+                src="./image/FoodImage/food5.jpg"
+                alt="" height="150px" width="150px"></div>
+            <figcaption>Food Item: 10</figcaption>
+          </td>
+        </tr>
+      </table>
+    </aside>
+    <!-- rightaside ends -->
+
+    <!-- footer starts -->
+    <footer class="footer">
+      Copyright@ZstarHomes
+    </footer>
+    <!-- footer ends -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/mygrid.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style>
+    html {
+      color: wheat;
+    }
+
+    form {
+      max-width: 100%;
+      text-align: center;
+      margin: auto;
+      padding: 20px;
+      border: solid 1px red
+    }
+
+    input,
+    textarea {
+      border: none;
+      margin: auto;
+      outline: 0;
+      padding: 1em;
+      display: block;
+      width: 90%;
+      margin-top: 1em;
+      font-family: 'Merriweather', sans-serif;
+      box-shadow: (0 1px 1px rgba(black, 0.1));
+      resize: none;
+      background-color: wheat;
+
+    }
+
+    #input-submit {
+      color: wheat;
+      background-color: red;
+      cursor: pointer;
+    }
+
+    #input-submit:hover {
+      background-color: wheat;
+      color: red;
+      box-shadow: (0 1px 1px 1px rgba(#aaa, 0.6));
+    }
+
+
+    textarea {
+      height: 120px;
+    }
+
+    .address {
+      text-align: left;
+      padding: 10px;
+      margin: 10px;
+      background-color: red;
+      color: wheat;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Grid layout modified form of "w3school.com" grid layout-->
+
+  <div class="grid-container">
+    <!-- Header Starts navigation -->
+
+    <header class="navbar">
+      <div id="main-head">
+        <span id="mylogo"><img id="logo"
+            src="./image/logo_transparent.png"
+            width="100px" height="100px"></span>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+    <!-- Left aside starts -->
+
+    <aside class="leftaside">
+      <map>
+        <h2>Jomsom</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223753.56241372856!2d83.67891014933556!3d28.80462102535484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39be0e42b3323685%3A0xb78689d6f4ff1019!2sJomsom%2C+Nepal!5e0!3m2!1sen!2sjp!4v1559269615029!5m2!1sen!2sjp"
+          width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="address">
+          <!-- Contact Us for trekking to upper mustang and lower mustang and home stay in Mustang nepal</p> -->
+          <h2><strong> Zstarhomes pvt ltd</strong></h2>
+          <p><em>Contact address:</em></p>
+          <p><i class="fas fa-home"></i>GPO Box 32103, Mustang, Nepal</p>
+          <p><i class="fas fa-address-book"></i>Kagbeni-8,Mustang Kagbeni 13</p>
+          <p><i class="fas fa-phone"></i>: +977 985-7658909</p>
+          <p><i class="fas fa-mobile-alt"></i>: +977 069 4881807</p>
+          <p><i class="fas fa-mobile-alt"></i>: +977 98510 98772</p>
+          <p><i class="fas fa-envelope"></i>:Zstarhomespvt.ltd@gmail.com</p>
+        </div>
+      </map>
+    </aside>
+    <!-- Leftaside ends -->
+    <!-- Center main Content start-->
+
+    <div class="maincontent">
+      <section>
+        <div class="jumbotron" style="max-width:max-content;margin:auto">
+          <h1>Contact Us</h1>
+        </div>
+        <br>
+        <br>
+        <div>
+          <form class="cf">
+            <div>
+              <input type="text" id="input-name" placeholder="Name">
+              <input type="email" id="input-email" placeholder="Email address">
+              <input type="text" id="input-subject" placeholder="Subject">
+            </div>
+            <div>
+              <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Send" id="input-submit">
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- main ends -->
+    <!-- rightaside starts -->
+
+    <aside class="rightaside">
+      <map>
+        <h2>Rara</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111104.27027347399!2d82.04623127078587!3d29.516113012410823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a3364839cf9de1%3A0x555b45c4bc3b046f!2sRara+Lake!5e0!3m2!1sen!2sjp!4v1559269504253!5m2!1sen!2sjp"
+          width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="address">
+          <h2><strong> Zstarhomes pvt ltd</strong></h2>
+          <p><em>Contact address:</em></p>
+          <p><i class="fas fa-home"></i>GPO Box 33105, Jumla, Nepal</p>
+          <p><i class="far fa-address-book"></i>Mugu-8,Jumla Rara,Rara 13109</p>
+          <p><i class="fas fa-phone"></i>: +977 985-7658909</p>
+          <p><i class="fas fa-mobile-alt"></i>: +977 069 4881807</p>
+          <p><i class="fas fa-mobile-alt"></i>:+977 98510 98772</p>
+          <p><i class="fas fa-envelope"></i>:Zstarhomespvt.ltd@gmail.com</p>
+        </div>
+      </map>
+    </aside>
+    <!-- rightaside ends -->
+
+    <!-- footer starts -->
+    <footer class="footer">
+      Copyright@ZstarHomes
+    </footer>
+    <!-- footer ends -->
+  </div>
+
+</body>
+
+</html>

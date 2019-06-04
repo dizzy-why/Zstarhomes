@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/mygrid.css">
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2);
+      transition: 0.4s;
+      width: 200px;
+      height: 300px;
+      background-color: wheat;
+      text-align: center;
+      font-size: 17px;
+      float: left;
+      margin: 10px;
+      border: 1px solid red;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1.6);
+    }
+
+    .card-footer button:hover {
+      border: 1px solid red;
+      background-color: #fff !important;
+      color: red;
+    }
+
+    .card-heading {
+      color: wheat !important;
+      background-color: red !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
+    .card-footer {
+      background-color: white !important;
+    }
+
+    .card-footer h3 {
+      font-size: 32px;
+    }
+
+    .card-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+
+
+    .container {
+      max-width: max-content;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Grid layout modified form of "w3school.com" grid layout-->
+
+  <div class="grid-container">
+    <!-- Header Starts navigation -->
+
+    <header class="navbar">
+      <div id="main-head">
+        <span id="mylogo"><img id="logo"
+            src="./image/logo_transparent.png"
+            width="100px" height="100px"></span>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Center main Content start-->
+
+    <div class="maincontent">
+      <section style="color:wheat">
+        <div class="jumbotron" style="max-width:max-content;margin:auto;">
+          <h1>About Us</h1>
+        </div>
+        <article class="frontpage">
+          <p>
+            Z star homes in Nepal is the first ever company which introduce home stay concept in Mustang Nepal. We are
+            operator-owned and are promoted by energetic youths & professional tour guides who are dedicated to
+            providing
+            a wide range of culture/heritage/pilgrimage tours as well as a variety of outdoor adventures exclusively for
+            Himalayan destinations of Mustang (upper mustang and lower mustang). We are registered with the Ministry of
+            Tourism, Nepal Tourism Board, Office of Company Registrar, Cottage & Small Industry, and are in the process
+            of
+            being authorized by the Income Tax Office of Nepal to operate any and all tourism activities in every nook
+            and
+            corner of our country. We specialize in delivering quality service, enabling our guests to fully leverage
+            the
+            benefits when staying our homestay with professionalism and passion
+          </p>
+        </article>
+        <p>
+          <img
+            src="./image/facebook_cover_photo_1.png"
+            height="300px" style="width:80%">
+        </p>
+        <article class="frontpage">
+          <p>
+            Athiti Deo Vhawa' (Guest is god) is the belief of typical Nepali society which have been carrying out the
+            concept of homestay tourism in Nepal. The people of Nepal welcomes their guests as a god and treat them with
+            warm hospitable manner according to their own life style but the identical manner and belief has turned in
+            to the tourism business when the government of Nepal introduced the homestay program as village tourism in
+            1997 for the first time. It becomes more popular when the government of Nepal, officially introduce the
+            homestay tourism program with the 'Home-stay Regulation 2067' in 17th August 2010 (Devkota 2008).
+          </p>
+        </article>
+      </section>
+      <section class="container">
+        <div class="jumbotron" style="margin:auto; max-width:max-content">
+          <h1>Our Team</h1>
+        </div>
+        <br>
+        <div class="card">
+          <div class="card-heading">
+            <img
+              src="./image/logo.png"
+              alt="Regesh" style="height:150px; width:150px; border-radius:80px ">
+          </div>
+          <div class="card-body">
+            <p><strong>Maharjan Regesh</strong></p>
+            <p><strong>Graphic Designer</strong></p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <img
+              src="./image/logo.png"
+              alt="Regesh" style="height:150px; width:150px; border-radius:80px ">
+          </div>
+          <div class="card-body">
+            <p><strong>Rana Ashish</strong></p>
+            <p><strong>Team Leader</strong></p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <img
+              src="./image/logo.png"
+              alt="Regesh" style="height:150px; width:150px; border-radius:80px ">
+          </div>
+          <div class="card-body">
+            <p><strong>Rai Binod Kumar</strong></p>
+            <p><strong>Content Writer</strong></p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <img
+              src="./image/logo.png"
+              alt="Regesh" style="height:150px; width:150px; border-radius:80px ">
+          </div>
+          <div class="card-body">
+            <p><strong>Basnet Prem Bd</strong></p>
+            <p><strong>Researcher</strong></p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-heading">
+            <img
+              src="./image/logo.png"
+              alt="Regesh" style="height:150px; width:150px; border-radius:80px ">
+          </div>
+          <div class="card-body">
+            <p><strong>Bhandari Pramod</strong></p>
+            <p><strong>Other(Data Analysis)</strong></p>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- main ends -->
+
+    <!-- footer starts -->
+    <footer class="footer">
+      Copyright@ZstarHomes
+    </footer>
+    <!-- footer ends -->
+  </div>
+
+</body>
+
+</html>

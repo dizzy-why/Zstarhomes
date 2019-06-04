@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color:teal;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/Background/background11.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: 500;
+  overflow:scroll;
+}
+
+.navbar {
+  grid-area: header;
+}
+
+.leftaside {
+  grid-area: left;
+}
+
+.maincontent {
+  grid-area: main;
+}
+
+.rightaside {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+  color: wheat;
+  background-color: red;
+  padding: 10px;
+  height: 50px;
+}
+
+/*  Credits to w3school
+this grid format is taken from "w3schools.com" to help the begineer students with their tasks to add their content and not
+worry about the layout itself 
+i have modified some of the layout from the original one and edited according to my requirment
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'header header header header header header' 'left  main main main main right' 'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container>div,aside,footer{
+  text-align: center;
+  padding: 10px 0;
+}
+
+#main-head {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  box-shadow: 10px;
+  border-bottom: solid red;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#mylogo {
+  float: left;
+}
+
+#logo {
+  height: 90px;
+  width:200px ;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+
+nav a {
+  color: bisque;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+nav ul li ul{
+  padding: 0;
+  position:absolute;
+  display:none;
+  visibility: hidden;
+  top: 40px;
+  width:200px;
+  right: 0px;
+}
+nav ul li ul li{
+  background-color:red;
+  display: block;
+}
+nav ul li ul li:hover{
+  background-color:wheat;
+  color:red;
+}
+nav ul li:hover ul{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav a:hover {
+  color: maroon;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: red;
+  ;
+  position: absolute;
+  top: 0;
+  width: 0%;
+}
+
+nav a:hover::before {
+  width: 100%
+}
+
+/* Credits to bootstrap
+this jumbotron is a bootstrap class used from "bootstrap.com" i modified it to suit my requiremnt */
+.jumbotron{
+  background-color: red;
+  color: wheat;
+  font-weight: 600px;
+  margin:10px; 
+  padding:10px;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  transition: .5s;
+
+}
+
+.jumbotron:hover{
+  background-color: wheat;
+  color: red;
+  transform: scale(1.1);
+}
+
+.frontpage{
+  text-align:justify; margin:10px auto; padding:10px;
+  max-width: 80%;
+  color: wheat;
+}
