@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  background-color:teal;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/Background/background11.jpg');
+  background-color:rgb(4, 44, 83);
   background-size: cover;
   font-family: sans-serif;
   font-weight: 500;
   overflow:scroll;
 }
 
+
+/*  Credits to w3school
+this grid format is taken from "https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-areas3" to help the begineer students with their tasks to add their content and not
+worry about the layout itself 
+i have modified some of the layout from the original one and edited according to my requirment
+*/
 .navbar {
   grid-area: header;
 }
@@ -32,12 +37,6 @@ body {
   padding: 10px;
   height: 50px;
 }
-
-/*  Credits to w3school
-this grid format is taken from "w3schools.com" to help the begineer students with their tasks to add their content and not
-worry about the layout itself 
-i have modified some of the layout from the original one and edited according to my requirment
-*/
 
 .grid-container {
   display: grid;
@@ -124,7 +123,7 @@ nav ul li:hover ul{
 }
 
 nav a:hover {
-  color: maroon;
+  color: red;
 }
 
 nav a::before {
@@ -141,9 +140,10 @@ nav a::before {
 nav a:hover::before {
   width: 100%
 }
+/* -------------------------------------------------------------------------------------------------------------- */
 
 /* Credits to bootstrap
-this jumbotron is a bootstrap class used from "bootstrap.com" i modified it to suit my requiremnt */
+this jumbotron is a bootstrap CSS class from "https://getbootstrap.com/" but i modified it to suit my requiremnt */
 .jumbotron{
   background-color: red;
   color: wheat;
@@ -161,7 +161,7 @@ this jumbotron is a bootstrap class used from "bootstrap.com" i modified it to s
   color: red;
   transform: scale(1.1);
 }
-
+/* --------------------------------------------------------------------------------------------------------------- */
 .frontpage{
   text-align:justify; margin:10px auto; padding:10px;
   max-width: 80%;
